@@ -14,6 +14,7 @@
 		D1E72546231FC806000289F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E72544231FC806000289F9 /* LaunchScreen.storyboard */; };
 		D1E72551231FC806000289F9 /* JJTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E72550231FC806000289F9 /* JJTextFieldTests.swift */; };
 		D1E7255C231FC807000289F9 /* JJTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7255B231FC807000289F9 /* JJTextFieldUITests.swift */; };
+		D1E7256C231FC937000289F9 /* JJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7256B231FC937000289F9 /* JJTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D1E72557231FC807000289F9 /* JJTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E7255B231FC807000289F9 /* JJTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJTextFieldUITests.swift; sourceTree = "<group>"; };
 		D1E7255D231FC807000289F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E7256B231FC937000289F9 /* JJTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,9 @@
 		D1E7253A231FC805000289F9 /* JJTextField */ = {
 			isa = PBXGroup;
 			children = (
-				D1E7253B231FC805000289F9 /* AppDelegate.swift */,
-				D1E7253D231FC805000289F9 /* ViewController.swift */,
-				D1E7253F231FC805000289F9 /* Main.storyboard */,
-				D1E72542231FC806000289F9 /* Assets.xcassets */,
-				D1E72544231FC806000289F9 /* LaunchScreen.storyboard */,
 				D1E72547231FC806000289F9 /* Info.plist */,
+				D1E72569231FC913000289F9 /* Usage */,
+				D1E7256A231FC922000289F9 /* JJTextField */,
 			);
 			path = JJTextField;
 			sourceTree = "<group>";
@@ -123,6 +122,26 @@
 				D1E7255D231FC807000289F9 /* Info.plist */,
 			);
 			path = JJTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		D1E72569231FC913000289F9 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7253B231FC805000289F9 /* AppDelegate.swift */,
+				D1E7253D231FC805000289F9 /* ViewController.swift */,
+				D1E7253F231FC805000289F9 /* Main.storyboard */,
+				D1E72542231FC806000289F9 /* Assets.xcassets */,
+				D1E72544231FC806000289F9 /* LaunchScreen.storyboard */,
+			);
+			path = Usage;
+			sourceTree = "<group>";
+		};
+		D1E7256A231FC922000289F9 /* JJTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7256B231FC937000289F9 /* JJTextField.swift */,
+			);
+			path = JJTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E7253E231FC805000289F9 /* ViewController.swift in Sources */,
+				D1E7256C231FC937000289F9 /* JJTextField.swift in Sources */,
 				D1E7253C231FC805000289F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
